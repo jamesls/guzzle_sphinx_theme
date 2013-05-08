@@ -10,6 +10,10 @@ from pygments.token import Keyword, Name, Comment, String, Error, \
      Number, Operator, Generic, Whitespace, Punctuation, Other, Literal
 
 
+def html_theme_path():
+    return os.path.dirname(os.path.abspath(__file__))
+
+
 class HTMLTranslator(SphinxHTMLTranslator):
     """
     Handle translating to bootstrap structure.
