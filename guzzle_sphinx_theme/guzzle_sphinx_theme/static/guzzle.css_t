@@ -82,15 +82,15 @@ div.body p, div.body dd, div.body li {
 
 tt {
   font-family: Consolas, Monaco, Menlo, "Courier New", monospace;
-  font-size: 15px;
+  font-size: 0.875em;
   color: #333;
 }
 
 code, pre {
   font-family: Consolas, Monaco, Menlo, "Courier New", monospace;
-  font-size: 15px;
+  font-size: 0.875em;
   color: #333333;
-  line-height: 23px;
+  line-height: 21px;
   margin: 20px 0;
 }
 
